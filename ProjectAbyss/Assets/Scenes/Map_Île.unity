@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a08773bb4fd02f49b4445cf775d9909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocationToGo: {fileID: 11400000, guid: a2885ecb0cde0564ea5d64030cfec123, type: 2}
+  LocationToGo: {fileID: 0}
 --- !u!1 &673507015
 GameObject:
   m_ObjectHideFlags: 0

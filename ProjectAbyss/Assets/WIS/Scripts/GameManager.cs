@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public IslandLocation PlayerCurrentPos;
 
 
-
+    public Interupteur[] Interupteurs;
    
 
 

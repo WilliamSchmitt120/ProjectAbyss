@@ -126,11 +126,12 @@ public class DialogueManager : MonoBehaviour
 
     void ActiveChoices()
     {
-
         //Fonction qui active chaque choix et y met les valeurs approriés.
 
         if (currentDialogue.active01)
         {
+            if (currentDialogue.checkCondition(1) == false) { return; }
+            
 
             text01.text = currentDialogue.choice01Name;
             dialogueChoice01 = currentDialogue.choice01Dialogue;
@@ -140,6 +141,8 @@ public class DialogueManager : MonoBehaviour
 
         if (currentDialogue.active02)
         {
+            if (currentDialogue.checkCondition(2) == false) { return; }
+
 
             text02.text = currentDialogue.choice02Name;
             dialogueChoice02 = currentDialogue.choice02Dialogue;
@@ -149,6 +152,8 @@ public class DialogueManager : MonoBehaviour
 
         if (currentDialogue.active03)
         {
+            if (currentDialogue.checkCondition(3) == false) { return; }
+
 
             text03.text = currentDialogue.choice03Name;
             dialogueChoice03 = currentDialogue.choice03Dialogue;
