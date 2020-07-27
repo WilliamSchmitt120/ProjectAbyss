@@ -15,7 +15,7 @@ public class IslandLocation : ScriptableObject
 
     public Sprite background;
 
-
+    public Dialogue defaultDialogue;
 
 
 }

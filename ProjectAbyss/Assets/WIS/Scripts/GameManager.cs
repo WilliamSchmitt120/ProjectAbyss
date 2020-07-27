@@ -11,13 +11,13 @@ public class GameManager : MonoBehaviour
     
     //C'est le script qui va permettre de gérer le jeu. 
 
-    //Les variables de positions pour savoir ou le joueur est en permanence
+    //Les variables de positions pour savoir ou le joueur est en permanence et charger les bonnes scène et les bonnes informations.
     
     public IslandLocation PlayerCurrentPos;
 
-    //On stock les ojets qui affiche le fond et les perso afin de pouvoir les modifier a partir d'autre scripts.
 
 
+   
 
 
 
