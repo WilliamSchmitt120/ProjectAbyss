@@ -12,18 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842813a20aacc64aa253aaafe7f5f47, type: 3}
   m_Name: Dialogue01
   m_EditorClassIdentifier: 
-  name: Pepouz
   sentences:
-  - Bla01
-  - Bla02
-  - Bla03
-  - Bla04
+  - mainCharacter: {fileID: 11400000, guid: 8b8b1d3a5f14fe6418f11f8132ecbf3a, type: 2}
+    emplacementMain: 0
+    character1: {fileID: 0}
+    emplacement1: 0
+    character2: {fileID: 0}
+    emplacement2: 0
+    character3: {fileID: 0}
+    emplacement3: 0
+    phrase: Salut, je m'appel Xavier.
+  - mainCharacter: {fileID: 11400000, guid: 73092a8dc175a2f4da4912c4fa28a829, type: 2}
+    emplacementMain: 1
+    character1: {fileID: 11400000, guid: 8b8b1d3a5f14fe6418f11f8132ecbf3a, type: 2}
+    emplacement1: 0
+    character2: {fileID: 0}
+    emplacement2: 0
+    character3: {fileID: 0}
+    emplacement3: 0
+    phrase: Bonjour, moi c'est david !
+  - mainCharacter: {fileID: 11400000, guid: 8b8b1d3a5f14fe6418f11f8132ecbf3a, type: 2}
+    emplacementMain: 0
+    character1: {fileID: 11400000, guid: 73092a8dc175a2f4da4912c4fa28a829, type: 2}
+    emplacement1: 1
+    character2: {fileID: 0}
+    emplacement2: 0
+    character3: {fileID: 0}
+    emplacement3: 0
+    phrase: Bienvenu David !
   active01: 1
-  choice01Name: Dialogue02
-  choice01Dialogue: {fileID: 11400000, guid: c85d5fb8df15a5640a3149d1f5bfeb4c, type: 2}
-  active02: 1
+  choice01Name: Recommencer
+  choice01Dialogue: {fileID: 11400000}
+  condition01: 0
+  interupteurTrigger01: 0
+  active02: 0
   choice02Name: Dialogue03
-  choice02Dialogue: {fileID: 11400000, guid: f86e880855652ec4fb444ff50aefbc98, type: 2}
-  active03: 1
+  choice02Dialogue: {fileID: 0}
+  condition02: 0
+  interupteurTrigger02: 0
+  active03: 0
   choice03Name: Dialogue04
-  choice03Dialogue: {fileID: 11400000, guid: 07573f8b062102249b263bbec153681a, type: 2}
+  choice03Dialogue: {fileID: 0}
+  condition03: 0
+  interupteurTrigger03: 0

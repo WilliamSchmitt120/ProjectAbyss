@@ -12,8 +12,11 @@ public class GameManager : MonoBehaviour
     //C'est le script qui va permettre de gérer le jeu. 
 
     //Les variables de positions pour savoir ou le joueur est en permanence et charger les bonnes scène et les bonnes informations.
-    
+    public enum PlayerGlobalPos { Abyss, Island}
+    public PlayerGlobalPos playerCurrentGlobalPos;
+
     public IslandLocation PlayerCurrentPos;
+    public AbyssLocation PlayerCurrentAbyssPos;
 
 
     public Interupteur[] Interupteurs;

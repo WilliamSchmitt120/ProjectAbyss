@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81382374576d8343bfef5f4c768ab45, type: 3}
+  m_Name: AbyssLocation0
+  m_EditorClassIdentifier: 
+  name: AbyssLocation0
+  background: {fileID: 21300000, guid: 40febfc3e0d4ebf4a975d3e91e4f6cdc, type: 3}
+  levelDesign: {fileID: 2307114425893235073, guid: bb224436750ae3244ae2a85ccad4054f,
+    type: 3}

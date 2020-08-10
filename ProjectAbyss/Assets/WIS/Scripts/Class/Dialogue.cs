@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue/Dialogue")]
+[CreateAssetMenu(fileName = "New Dialogue", menuName = "Event/Dialogue")]
 public class Dialogue : ScriptableObject
 {
     //Objet qui stock un dialogue du jeu. Un dialogue est composé de plusieurs éléments.
 
-    //Le nom du PNJ principal du dialogue (autre que le joueur).   
-    public new string name;
-
-    //Les Différentes phrases du dialogue, lues les unes aprés les autres;
-    [TextArea(3, 10)]
-    public string[] sentences;
-
-    //Les différents personnages présents dans la scène et qui doivent être affichés.
-    public Character[] characters;
+    //Les Différentes phrases du dialogue, lues les unes aprés les autres avec les personnages qui les prononces;
+    public Sentence[] sentences;
 
 
     //Les Différents choix possible a la fin qui permettent de passer a un autre dialogue a spécifier.
     //Pour chaque choix, il faut indiquer s'il est actif (un choix incatif n'aparait pas), le nom affiché sur le bouton du choix (se peut être une petite phrase ou juste un mot) et enfin la dialogue que le choix va lancer.
+    //De plus, il est possible de spécifier une condition déterminant si la dialogue aparait ou non (le booléen indique s'il est soumis a une condition ou non et l'interupteur donne l'interupteur en question.
     [Header("End Choices 01")]
 
     public bool active01;
@@ -49,6 +43,8 @@ public class Dialogue : ScriptableObject
     public bool condition03;
     public int interupteurTrigger03;
 
+
+    //Une petite fonction qui sert a checker un choix et return true si les conditions sont réunies et false si elles ne le sont pas.
     public bool checkCondition(int choice)
     {
         switch (choice)

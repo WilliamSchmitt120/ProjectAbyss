@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1842813a20aacc64aa253aaafe7f5f47, type: 3}
+  m_Name: New Dialogue
+  m_EditorClassIdentifier: 
+  sentences: []
+  characters: []
+  active01: 0
+  choice01Name: 
+  choice01Dialogue: {fileID: 0}
+  condition01: 0
+  interupteurTrigger01: 0
+  active02: 0
+  choice02Name: 
+  choice02Dialogue: {fileID: 0}
+  condition02: 0
+  interupteurTrigger02: 0
+  active03: 0
+  choice03Name: 
+  choice03Dialogue: {fileID: 0}
+  condition03: 0
+  interupteurTrigger03: 0

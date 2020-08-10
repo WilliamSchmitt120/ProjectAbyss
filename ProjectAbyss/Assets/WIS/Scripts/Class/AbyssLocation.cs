@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Island Location", menuName = "Locations/IslandLocation")]
-public class IslandLocation : ScriptableObject
+[CreateAssetMenu(fileName = "New Abyss Location", menuName = "Locations/AbyssLocation")]
+public class AbyssLocation : ScriptableObject
 {
     //La Classe qui gère les différents lieux dans lequel le joueur va pouvoir aller.
 
@@ -16,7 +16,7 @@ public class IslandLocation : ScriptableObject
     public Sprite background; //Le fond qui sera mis en arrière plan.
 
     
-    public Dialogue defaultDialogue; //Le dialogue qui sera jouépar défaut a l'arrivée dans la scène
+    public GameObject levelDesign; //Le dialogue qui sera joué par défaut a l'arrivée dans la scène
 
 
 }
